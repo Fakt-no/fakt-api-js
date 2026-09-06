@@ -1,0 +1,22 @@
+{
+  "name": "@fakt-no/api",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript client for the fakt.no public job-market API. Thin fetch-based wrapper, works in Node and the browser.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "src"],
+  "sideEffects": false,
+  "license": "MIT",
+  "keywords": ["api", "javascript", "typescript", "sdk", "norway", "arbeidsmarked", "job-market"],
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "git+https://github.com/Fakt-no/fakt-api-js.git" }
+}

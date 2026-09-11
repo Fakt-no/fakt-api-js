@@ -14,9 +14,13 @@ This package is only a thin HTTP wrapper around the public endpoints — it cont
 
 ## Install
 
-```bash
-npm install @fakt-no/api
-```
+> **Not yet published to npm.** `npm install @fakt-no/api` returns 404 today — the package is not on the registry yet.
+>
+> Until it is published, install straight from the repository:
+>
+> ```bash
+> npm install "github:Fakt-no/fakt-api-js"
+> ```
 
 ## Quick start
 
